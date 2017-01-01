@@ -237,7 +237,7 @@ body .ui-tooltip {
     /*width: 100%;*/
     height: 500px;
 
-    /*background-image: url("../images/newyork.jpg") no-repeat center center;
+    /*-image: url("../images/newyork.jpg") no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: contain;
@@ -710,6 +710,7 @@ cursor: url(../images/cross.png), auto;
 ---------------------------------------------------*/
 
 .container-custom {
+    /*background-color: white;*/
     padding-left: 30%;
     padding-right: 30%;
 
@@ -740,7 +741,7 @@ cursor: url(../images/cross.png), auto;
 
 /* Register Form */
 #section-contact form {
-    margin-bottom: 40px;
+    margin-bottom: 10%;
 }
 
 #section-contact form p,
@@ -752,7 +753,7 @@ cursor: url(../images/cross.png), auto;
 #section-contact label {
     display: inline-block;
     float: left;
-    width: 155px;
+    width: 155px; /*155px*/
     margin: 6px 0;
 }
 
