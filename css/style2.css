@@ -698,6 +698,12 @@ cursor: url(../images/cross.png), auto;
         3.5 Contact / References / Testimonials
 ---------------------------------------------------*/
 
+.container-custom {
+    padding-left: 30%;
+    padding-right: 30%;
+
+}
+
 #section-contact {
     color: #fff;
     padding: 0px 0;
