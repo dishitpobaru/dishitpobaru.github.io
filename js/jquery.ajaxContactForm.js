@@ -40,10 +40,9 @@ $(document).ready(function(){
 		
 		if ( contactError == '' ) {
 			$.ajax({
-				type: "POST",
+				type: 'POST',
 				url: "email.php",
 				data: dataString,
-				
 
 				success: function() {
 					$('#contact-success').fadeIn();

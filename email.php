@@ -9,14 +9,6 @@ $name = $_POST['contactName'];
 $visitor_email = $_POST['contactEmail'];
 $message = $_POST['contactMessage'];
 
-//Validate first
-if(empty($name)||empty($visitor_email)) 
-{
-    echo "Name and email are mandatory!";
-    exit;
-}
-
-
 
 $email_from = 'rakholiabrijesh@gmail.com';//<== update the email address
 $email_subject = "New Form submission";
