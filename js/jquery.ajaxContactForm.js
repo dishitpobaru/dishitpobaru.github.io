@@ -41,7 +41,7 @@ $(document).ready(function(){
 		if ( contactError == '' ) {
 			$.ajax({
 				type: "POST",
-				url: "includes/include.emailSender.php",
+				url: "email.php",
 				data: dataString,
 				success: function() {
 					$('#contact-success').fadeIn();
