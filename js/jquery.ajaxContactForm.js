@@ -43,6 +43,8 @@ $(document).ready(function(){
 				type: "POST",
 				url: "email.php",
 				data: dataString,
+				
+
 				success: function() {
 					$('#contact-success').fadeIn();
 					$('form#contactForm').fadeOut();
